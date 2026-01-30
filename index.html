@@ -14,26 +14,32 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/png" href="./assets/rmg-play-gold.png" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="page">
       <header class="site-header">
         <div class="brand">
-          <img class="brand-logo" src="./assets/rmg-logo.png" alt="Rankin Media Group logo" />
+          <img
+            class="brand-logo"
+            src="./assets/rmg-logo-sm.png"
+            srcset="./assets/rmg-logo-sm.png 1x, ./assets/rmg-logo-md.png 2x"
+            alt="Rankin Media Group logo"
+          />
           <div class="brand-copy">
             <span class="brand-title">RMG</span>
             <span class="brand-subtitle">Rankin Media Group</span>
           </div>
         </div>
         <nav class="site-nav">
-          <a href="#about">About</a>
-          <a href="#roster">Roster</a>
-          <a href="#releases">Releases</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
+          <a href="./about.html">About</a>
+          <a href="./roster.html">Roster</a>
+          <a href="./releases.html">Releases</a>
+          <a href="./news.html">News</a>
+          <a href="./contact.html">Contact</a>
         </nav>
-        <a class="cta-link" href="#contact">Submit Demo</a>
+        <a class="cta-link" href="./contact.html">Submit Demo</a>
       </header>
 
       <main>
@@ -46,13 +52,16 @@
               strategic marketing, and uncompromising release quality.
             </p>
             <div class="hero-actions">
-              <a class="btn primary" href="#releases">Explore releases</a>
-              <a class="btn ghost" href="#contact">Contact label</a>
+              <a class="btn primary" href="./releases.html">
+                <img class="btn-icon" src="./assets/rmg-play-gold.png" alt="" />
+                Explore releases
+              </a>
+              <a class="btn ghost" href="./contact.html">Contact label</a>
             </div>
           </div>
           <div class="hero-visual">
             <div class="hero-card">
-              <img src="./assets/rmg-logo.png" alt="RMG brand mark" />
+              <img src="./assets/rmg-logo-md.png" alt="RMG brand mark" />
             </div>
             <div class="hero-stats">
               <div class="stat">
@@ -99,28 +108,28 @@
           </div>
           <div class="card-grid">
             <article class="artist-card">
-              <a class="card-link" href="#contact">
+              <a class="card-link" href="./roster.html">
                 <img src="./assets/cover-2.png" alt="Featured artist cover" />
                 <div>
-                  <h3>Featured Artist</h3>
+                  <h3>Cliff R.</h3>
                   <p>Breakout single with a cinematic rollout and premium visuals.</p>
                 </div>
               </a>
             </article>
             <article class="artist-card">
-              <a class="card-link" href="#contact">
-                <img src="./assets/DSC07792.png" alt="Artist portrait" />
+              <a class="card-link" href="./roster.html">
+                <img class="portrait-focus" src="./assets/DSC07792.png" alt="Artist portrait" />
                 <div>
-                  <h3>Featured Artist</h3>
+                  <h3>Jewel</h3>
                   <p>Genre‑defining releases built for global momentum.</p>
                 </div>
               </a>
             </article>
             <article class="artist-card">
-              <a class="card-link" href="#contact">
-                <img src="./assets/8F44E600.png" alt="Artist portrait" />
+              <a class="card-link" href="./roster.html">
+                <img class="portrait-focus" src="./assets/8F44E600.png" alt="Artist portrait" />
                 <div>
-                  <h3>Featured Artist</h3>
+                  <h3>Luchiano Emilio</h3>
                   <p>Debut campaign built for streaming and live impact.</p>
                 </div>
               </a>
@@ -136,7 +145,7 @@
           </div>
           <div class="release-grid">
             <article class="release-card">
-              <a class="card-link" href="#contact">
+              <a class="card-link" href="./releases.html">
                 <div class="release-tag">Single</div>
                 <h3>Flagship Release</h3>
                 <p>Lead single with cinematic visuals and editorial momentum.</p>
@@ -144,7 +153,7 @@
               </a>
             </article>
             <article class="release-card">
-              <a class="card-link" href="#contact">
+              <a class="card-link" href="./releases.html">
                 <div class="release-tag">EP</div>
                 <h3>Project Launch</h3>
                 <p>Visual narrative rollout built around artist identity.</p>
@@ -152,7 +161,7 @@
               </a>
             </article>
             <article class="release-card">
-              <a class="card-link" href="#contact">
+              <a class="card-link" href="./releases.html">
                 <div class="release-tag">Live</div>
                 <h3>Performance Series</h3>
                 <p>Intimate sessions designed for social amplification.</p>
@@ -170,21 +179,21 @@
           </div>
           <div class="press-grid">
             <article class="press-card">
-              <a class="card-link" href="#contact">
+              <a class="card-link" href="./news.html">
                 <h3>Editorial Feature</h3>
                 <p>“A forward-looking label shaping the next generation of artists.”</p>
                 <span class="text-link">Read feature</span>
               </a>
             </article>
             <article class="press-card">
-              <a class="card-link" href="#contact">
+              <a class="card-link" href="./news.html">
                 <h3>Playlist Momentum</h3>
                 <p>Multiple releases secured high-impact placements across platforms.</p>
                 <span class="text-link">View placements</span>
               </a>
             </article>
             <article class="press-card">
-              <a class="card-link" href="#contact">
+              <a class="card-link" href="./news.html">
                 <h3>Visual Premiere</h3>
                 <p>Flagship video showcased in premium editorial channels.</p>
                 <span class="text-link">Watch premiere</span>
@@ -207,21 +216,30 @@
                 rankinmediagroup@gmail.com
               </a>
             </div>
-            <a class="btn primary" href="mailto:rankinmediagroup@gmail.com">Email RMG</a>
+            <a class="btn primary" href="./contact.html">Email RMG</a>
           </div>
         </section>
       </main>
 
       <footer class="site-footer">
         <div>
-          <img class="footer-logo" src="./assets/rmg-logo.png" alt="Rankin Media Group logo" />
+          <img
+            class="footer-logo"
+            src="./assets/rmg-logo-sm.png"
+            srcset="./assets/rmg-logo-sm.png 1x, ./assets/rmg-logo-md.png 2x"
+            alt="Rankin Media Group logo"
+          />
           <p>© 2026 Rankin Media Group. All rights reserved.</p>
         </div>
         <div class="footer-links">
-          <a href="#roster">Roster</a>
-          <a href="#releases">Releases</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
+          <a href="./roster.html">Roster</a>
+          <a href="./releases.html">Releases</a>
+          <a href="./news.html">News</a>
+          <a href="./contact.html">Contact</a>
+          <a href="./press-kit.html">Press Kit</a>
+          <a href="./sync.html">Sync</a>
+          <a href="./privacy.html">Privacy</a>
+          <a href="./terms.html">Terms</a>
         </div>
       </footer>
     </div>
